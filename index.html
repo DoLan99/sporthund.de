@@ -3,6 +3,11 @@
 
 <head>
     <meta charset="utf-8">
+    <script>window.dataLayer = window.dataLayer || [];</script>
+    <script>window.dataLayer.push({ "google_tag_params": { "ecomm_pagetype": "home" } });</script><!-- WbmTagManager -->
+    <script>
+        (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + ''; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-P3ZZBBZ');
+    </script>
     <!-- End WbmTagManager -->
     <meta name="google-site-verification" content="nNF17BO92xbjLjiZMCULqTB-6yYmx9KMhj4rvoCwOjw">
     <meta name="author" content>
@@ -56,12 +61,12 @@
         document.bestitAmazonPayWidgetJsUrl = 'https://static-eu.payments-amazon.com/OffAmazonPayments/de/lpa/js/Widgets.js';
         document.bestitAmazonPayDebug = true;        </script>
     <div class="bestit-amazon-pay" data-async="1" data-controller="index" data-action="index"
-        data-sellerid="AO67REQHODDKG" data-clientid="amzn1.application-oa2-client.dc65d362f39e41da9dce5be21f4761e5"
-        data-purchaseid="" data-session="asess" data-smartphonecollapsible="0" data-minimumordervalue="0"
-        data-basketvalue="0" data-currency="EUR" data-scaendpoint="https://www.sporthund.de/AmazonPay/sca"
-        data-errorpageurl="https://www.sporthund.de/checkout/cart/amazonPayError/1" data-basketsignature=""
-        data-amazonpayselected="false"
-        data-closeloadingindicatortext="<p class=animation-text>Klicken Sie hier, um den Vorgang abzubrechen.</p>">
+        data-sellerId="AO67REQHODDKG" data-clientId="amzn1.application-oa2-client.dc65d362f39e41da9dce5be21f4761e5"
+        data-purchaseId data-session="asess" data-smartphoneCollapsible="0" data-minimumOrderValue="0"
+        data-basketValue="0" data-currency="EUR" data-scaEndpoint="https://www.sporthund.de/AmazonPay/sca"
+        data-errorPageUrl="https://www.sporthund.de/checkout/cart/amazonPayError/1" data-basketSignature
+        data-amazonPaySelected="false"
+        data-closeLoadingIndicatorText="<p class=animation-text>Klicken Sie hier, um den Vorgang abzubrechen.</p>">
     </div>
     <div class="page-wrap"> <noscript class="noscript-main">
             <div class="alert is--warning">
@@ -92,7 +97,7 @@
                                     class="icon--heart"></i> <span class="note--display"> Wunschlisten </span> </a>
                         </div>
                         <div class="navigation--entry entry--account with-slt" role="menuitem" data-offcanvas="true"
-                            data-offcanvasselector=".account--dropdown-navigation"> <a title="Mein Konto"
+                            data-offCanvasSelector=".account--dropdown-navigation"> <a title="Mein Konto"
                                 class="entry--link account--link"> <i class="icon--account"></i> <span
                                     class="account--display"> Mein Konto </span> </a>
                             <div class="account--dropdown-navigation">
@@ -108,10 +113,10 @@
                                             <li class="navigation--entry"> <span class="navigation--signin"> <a
                                                         href="https://www.sporthund.de/account#hide-registration"
                                                         class="blocked--link btn is--primary navigation--signin-btn"
-                                                        data-collapsetarget="#registration" data-action="close">
+                                                        data-collapseTarget="#registration" data-action="close">
                                                         Anmelden </a> <span class="navigation--register"> oder <a
                                                             href="https://www.sporthund.de/account#show-registration"
-                                                            class="blocked--link" data-collapsetarget="#registration"
+                                                            class="blocked--link" data-collapseTarget="#registration"
                                                             data-action="open"> registrieren </a> </span> </span> </li>
                                             <li class="navigation--entry"> <a href="https://www.sporthund.de/account"
                                                     title="Übersicht" class="navigation--link"> Übersicht </a> </li>
@@ -164,10 +169,10 @@
                     <ul class="navigation--list block-group" role="menubar">
                         <li class="navigation--entry entry--menu-left" role="menuitem"> <a
                                 class="entry--link entry--trigger btn is--icon-left" href="#offcanvas--left"
-                                data-offcanvas="true" data-offcanvasselector=".sidebar-main" aria-label="Menü"> <i
+                                data-offcanvas="true" data-offCanvasSelector=".sidebar-main" aria-label="Menü"> <i
                                     class="icon--menu"></i> Menü </a> </li>
                         <li class="navigation--entry entry--search" role="menuitem" data-search="true"
-                            aria-haspopup="true" data-minlength="3"> <a class="btn entry--link entry--trigger"
+                            aria-haspopup="true" data-minLength="3"> <a class="btn entry--link entry--trigger"
                                 href="#show-hide--search" title="Suche anzeigen / schließen"
                                 aria-label="Suche anzeigen / schließen"> <i class="icon--search"></i> <span
                                     class="search--display">Suchen</span> </a>
@@ -191,7 +196,7 @@
                                 href="https://www.sporthund.de/wishlist" title="Wunschlisten" class="btn"> <i
                                     class="icon--heart"></i> </a> </li>
                         <li class="navigation--entry entry--account with-slt" role="menuitem" data-offcanvas="true"
-                            data-offcanvasselector=".account--dropdown-navigation"> <a title="Mein Konto"
+                            data-offCanvasSelector=".account--dropdown-navigation"> <a title="Mein Konto"
                                 class="vm-account-btn btn is--icon-left entry--link account--link"> <i
                                     class="icon--account"></i> <span class="account--display"> Mein Konto </span> </a>
                             <div class="account--dropdown-navigation">
@@ -207,10 +212,10 @@
                                             <li class="navigation--entry"> <span class="navigation--signin"> <a
                                                         href="https://www.sporthund.de/account#hide-registration"
                                                         class="blocked--link btn is--primary navigation--signin-btn"
-                                                        data-collapsetarget="#registration" data-action="close">
+                                                        data-collapseTarget="#registration" data-action="close">
                                                         Anmelden </a> <span class="navigation--register"> oder <a
                                                             href="https://www.sporthund.de/account#show-registration"
-                                                            class="blocked--link" data-collapsetarget="#registration"
+                                                            class="blocked--link" data-collapseTarget="#registration"
                                                             data-action="open"> registrieren </a> </span> </span> </li>
                                             <li class="navigation--entry"> <a href="https://www.sporthund.de/account"
                                                     title="Übersicht" class="navigation--link"> Übersicht </a> </li>
@@ -245,7 +250,7 @@
                                 title="Warenkorb"> <span class="cart--display"> Warenkorb </span> <span
                                     class="badge is--primary is--minimal cart--quantity is--hidden">0</span> <i
                                     class="icon--basket"></i> <span class="cart--description"> Warenkorb | </span> <span
-                                    class="cart--amount"> 0,00&nbsp;€ </span> </a>
+                                    class="cart--amount"> 0,00&nbsp;&euro; </span> </a>
                             <div class="ajax-loader">&nbsp;</div>
                         </li>
                     </ul>
@@ -254,43 +259,41 @@
             </div>
         </header>
         <nav class="navigation-main">
-            <div class="container js--menu-scroller" data-menu-scroller="true"
-                data-listselector=".navigation--list.container" data-viewportselector=".navigation--list-wrapper">
+            <div class="container" data-menu-scroller="true" data-listSelector=".navigation--list.container"
+                data-viewPortSelector=".navigation--list-wrapper">
                 <div class="navigation--list-wrapper">
-                    <ul class="navigation--list container js--menu-scroller--list" role="menubar" itemscope="itemscope"
-                        itemtype="https://schema.org/SiteNavigationElement" style="bottom: 0px; margin-top: 0px;">
-                        <li class="navigation--entry is--active is--home js--menu-scroller--item" role="menuitem"> <a
+                    <ul class="navigation--list container" role="menubar" itemscope="itemscope"
+                        itemtype="https://schema.org/SiteNavigationElement">
+                        <li class="navigation--entry is--active is--home" role="menuitem"> <a
                                 class="navigation--link is--first active" href="https://www.sporthund.de/" title="Home"
                                 itemprop="url"> <span itemprop="name"><i class="icon--house"></i></span> </a> </li>
-                        <li class="navigation--entry js--menu-scroller--item" role="menuitem"><a
-                                class="navigation--link" href="https://www.sporthund.de/trainingsmaterial"
-                                title="Trainingsmaterial" aria-label="Trainingsmaterial" itemprop="url"><span
+                        <li class="navigation--entry" role="menuitem"><a class="navigation--link"
+                                href="https://www.sporthund.de/trainingsmaterial" title="Trainingsmaterial"
+                                aria-label="Trainingsmaterial" itemprop="url"><span
                                     itemprop="name">Trainingsmaterial</span></a></li>
-                        <li class="navigation--entry js--menu-scroller--item" role="menuitem"><a
-                                class="navigation--link" href="https://www.sporthund.de/hundebedarf" title="Hundebedarf"
-                                aria-label="Hundebedarf" itemprop="url"><span itemprop="name">Hundebedarf</span></a>
-                        </li>
-                        <li class="navigation--entry js--menu-scroller--item" role="menuitem"><a
-                                class="navigation--link" href="https://www.sporthund.de/bekleidung" title="Bekleidung"
-                                aria-label="Bekleidung" itemprop="url"><span itemprop="name">Bekleidung</span></a></li>
-                        <li class="navigation--entry js--menu-scroller--item" role="menuitem"><a
-                                class="navigation--link" href="https://www.sporthund.de/gesundheit-physio"
-                                title="Gesundheit / Physio" aria-label="Gesundheit / Physio" itemprop="url"><span
-                                    itemprop="name">Gesundheit / Physio</span></a></li>
-                        <li class="navigation--entry js--menu-scroller--item" role="menuitem"><a
-                                class="navigation--link" href="https://www.sporthund.de/geschenkartikel"
-                                title="Geschenkartikel" aria-label="Geschenkartikel" itemprop="url"><span
+                        <li class="navigation--entry" role="menuitem"><a class="navigation--link"
+                                href="https://www.sporthund.de/hundebedarf" title="Hundebedarf" aria-label="Hundebedarf"
+                                itemprop="url"><span itemprop="name">Hundebedarf</span></a></li>
+                        <li class="navigation--entry" role="menuitem"><a class="navigation--link"
+                                href="https://www.sporthund.de/bekleidung" title="Bekleidung" aria-label="Bekleidung"
+                                itemprop="url"><span itemprop="name">Bekleidung</span></a></li>
+                        <li class="navigation--entry" role="menuitem"><a class="navigation--link"
+                                href="https://www.sporthund.de/gesundheit-physio" title="Gesundheit / Physio"
+                                aria-label="Gesundheit / Physio" itemprop="url"><span itemprop="name">Gesundheit /
+                                    Physio</span></a></li>
+                        <li class="navigation--entry" role="menuitem"><a class="navigation--link"
+                                href="https://www.sporthund.de/geschenkartikel" title="Geschenkartikel"
+                                aria-label="Geschenkartikel" itemprop="url"><span
                                     itemprop="name">Geschenkartikel</span></a></li>
-                        <li class="navigation--entry js--menu-scroller--item" role="menuitem"><a
-                                class="navigation--link" href="https://www.sporthund.de/magazin" title="MAGAZIN"
-                                aria-label="MAGAZIN" itemprop="url"><span itemprop="name">MAGAZIN</span></a></li>
-                        <li class="navigation--entry js--menu-scroller--item" role="menuitem"><a
-                                class="navigation--link" href="https://www.sporthund.de/sporthund-blog-home"
-                                title="BLOG" aria-label="BLOG" itemprop="url" target="_parent"><span
-                                    itemprop="name">BLOG</span></a></li>
+                        <li class="navigation--entry" role="menuitem"><a class="navigation--link"
+                                href="https://www.sporthund.de/magazin" title="MAGAZIN" aria-label="MAGAZIN"
+                                itemprop="url"><span itemprop="name">MAGAZIN</span></a></li>
+                        <li class="navigation--entry" role="menuitem"><a class="navigation--link"
+                                href="https://www.sporthund.de/sporthund-blog-home" title="BLOG" aria-label="BLOG"
+                                itemprop="url" target="_parent"><span itemprop="name">BLOG</span></a></li>
                     </ul>
                 </div>
-                <div class="advanced-menu" data-advanced-menu="true" data-hoverdelay="250" style="display: none;">
+                <div class="advanced-menu" data-advanced-menu="true" data-hoverDelay="250">
                     <div class="menu--container">
                         <div class="button-container"> <a href="https://www.sporthund.de/trainingsmaterial"
                                 class="button--category" aria-label="Zur Kategorie Trainingsmaterial"
@@ -382,8 +385,8 @@
                                         <li class="menu--list-item item--level-1"> <a
                                                 href="https://www.sporthund.de/suchleinen-suchgeschirre"
                                                 class="menu--list-item-link" aria-label="Suchleinen &amp; Suchgeschirre"
-                                                title="Suchleinen &amp; Suchgeschirre">Suchleinen &amp;
-                                                Suchgeschirre</a> </li>
+                                                title="Suchleinen &amp; Suchgeschirre">Suchleinen & Suchgeschirre</a>
+                                        </li>
                                         <li class="menu--list-item item--level-1"> <a
                                                 href="https://www.sporthund.de/sniffledog" class="menu--list-item-link"
                                                 aria-label="SniffleDog" title="SniffleDog">SniffleDog</a> </li>
@@ -808,7 +811,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="menu--container menu--is-active">
+                    <div class="menu--container">
                         <div class="button-container"> <a href="https://www.sporthund.de/geschenkartikel"
                                 class="button--category" aria-label="Zur Kategorie Geschenkartikel"
                                 title="Zur Kategorie Geschenkartikel"> <i class="icon--arrow-right"></i> Zur Kategorie
@@ -875,8 +878,8 @@
                                                 aria-label="Hundesport" title="Hundesport">Hundesport</a> </li>
                                         <li class="menu--list-item item--level-1"> <a
                                                 href="https://www.sporthund.de/news-szene" class="menu--list-item-link"
-                                                aria-label="News &amp; Szene" title="News &amp; Szene">News &amp;
-                                                Szene</a> </li>
+                                                aria-label="News &amp; Szene" title="News &amp; Szene">News & Szene</a>
+                                        </li>
                                         <li class="menu--list-item item--level-1"> <a
                                                 href="https://www.sporthund.de/kynologie" class="menu--list-item-link"
                                                 aria-label="Kynologie" title="Kynologie">Kynologie</a> </li>
@@ -886,8 +889,7 @@
                                                 title="Sporthund 360°">Sporthund 360°</a> </li>
                                         <li class="menu--list-item item--level-1"> <a
                                                 href="https://www.sporthund.de/dies-das" class="menu--list-item-link"
-                                                aria-label="Dies &amp; Das" title="Dies &amp; Das">Dies &amp; Das</a>
-                                        </li>
+                                                aria-label="Dies &amp; Das" title="Dies &amp; Das">Dies & Das</a> </li>
                                         <li class="menu--list-item item--level-1"> <a
                                                 href="https://www.sporthund.de/wissenswertes"
                                                 class="menu--list-item-link" aria-label="Wissenswertes"
@@ -904,10 +906,6 @@
                                 <i class="icon--cross"></i> </span> </div>
                     </div>
                 </div>
-                <div class="js--menu-scroller--arrow left--arrow" style="display: none;"><span
-                        class="arrow--content"></span></div>
-                <div class="js--menu-scroller--arrow right--arrow" style="display: none;"><span
-                        class="arrow--content"></span></div>
             </div>
         </nav>
         <div class="dummy-sticky"></div>
@@ -921,14 +919,14 @@
                 <div class="logo-main block-group" role="banner">
                     <div class="logo--shop block"> <a class="logo--link" href="https://www.sporthund.de/"
                             title="Sporthund.de - zur Startseite wechseln"> <img
-                                srcset="https://www.sporthund.de/media/image/8e/86/b0/SPORTHUND.png"
+                                srcset="https://www.sporthund.de/media/image/b2/a0/f1/sporthund_logo_new.png"
                                 alt="Sporthund.de - zur Startseite wechseln"> </a> </div>
                 </div>
                 <nav class="shop--navigation block-group">
                     <ul class="navigation--list block-group" role="menubar">
                         <li class="navigation--entry entry--menu-left" role="menuitem"> <a
                                 class="entry--link entry--trigger btn is--icon-left" href="#offcanvas--left"
-                                data-offcanvas="true" data-offcanvasselector=".sidebar-main"> <i class="icon--menu"></i>
+                                data-offcanvas="true" data-offCanvasSelector=".sidebar-main"> <i class="icon--menu"></i>
                                 Menü </a> </li>
                         <li class="navigation--entry entry--search" role="menuitem" data-search="true"
                             aria-haspopup="true"> <a class="btn entry--link entry--trigger" href="#show-hide--search"
@@ -954,7 +952,7 @@
                                 href="https://www.sporthund.de/wishlist" title="Wunschlisten" class="btn"> <i
                                     class="icon--heart"></i> </a> </li>
                         <li class="navigation--entry entry--account with-slt" role="menuitem" data-offcanvas="true"
-                            data-offcanvasselector=".account--dropdown-navigation"> <a title="Mein Konto"
+                            data-offCanvasSelector=".account--dropdown-navigation"> <a title="Mein Konto"
                                 class="vm-account-btn btn is--icon-left entry--link account--link"> <i
                                     class="icon--account"></i> <span class="account--display"> Mein Konto </span> </a>
                             <div class="account--dropdown-navigation">
@@ -970,10 +968,10 @@
                                             <li class="navigation--entry"> <span class="navigation--signin"> <a
                                                         href="https://www.sporthund.de/account#hide-registration"
                                                         class="blocked--link btn is--primary navigation--signin-btn"
-                                                        data-collapsetarget="#registration" data-action="close">
+                                                        data-collapseTarget="#registration" data-action="close">
                                                         Anmelden </a> <span class="navigation--register"> oder <a
                                                             href="https://www.sporthund.de/account#show-registration"
-                                                            class="blocked--link" data-collapsetarget="#registration"
+                                                            class="blocked--link" data-collapseTarget="#registration"
                                                             data-action="open"> registrieren </a> </span> </span> </li>
                                             <li class="navigation--entry"> <a href="https://www.sporthund.de/account"
                                                     title="Übersicht" class="navigation--link"> Übersicht </a> </li>
@@ -1002,6 +1000,14 @@
                                     </div>
                                 </div>
                             </div>
+                        </li>
+                        <li class="navigation--entry entry--cart" role="menuitem"> <a
+                                class="btn is--icon-left cart--link" href="https://www.sporthund.de/checkout/cart"
+                                title="Warenkorb"> <span class="cart--display"> Warenkorb </span> <span
+                                    class="badge is--primary is--minimal cart--quantity is--hidden">0</span> <i
+                                    class="icon--basket"></i> <span class="cart--description"> Warenkorb | </span> <span
+                                    class="cart--amount"> 0,00&nbsp;&euro; </span> </a>
+                            <div class="ajax-loader">&nbsp;</div>
                         </li>
                     </ul>
                 </nav>
@@ -1097,7 +1103,7 @@
                                                 data-imageselector=".image-slider--item">
                                                 <div class="banner-slider--container image-slider--container">
                                                     <div class="banner-slider--slide image-slider--slide"
-                                                        style="transition: all 2000ms cubic-bezier(0.2, 0.89, 0.75, 0.99) 0s; transform: translateX(-200%);">
+                                                        style="transition: all 2000ms cubic-bezier(0.2, 0.89, 0.75, 0.99) 0s; transform: translateX(-100%);">
                                                         <div class="banner-slider--item image-slider--item"
                                                             data-coverimage="true"
                                                             data-containerselector=".banner-slider--banner"
@@ -1873,7 +1879,8 @@
                                                 <div class="html--content panel--body is--wide">
                                                     <h2
                                                         style="text-align: center; font-size: 14px; color: #006eb5; font-weight: 600; margin-top: 16px;">
-                                                        <strong>Markenwelt</strong></h2>
+                                                        <strong>Markenwelt</strong>
+                                                    </h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -2481,7 +2488,8 @@
                                             <div class="html--content panel--body is--wide">
                                                 <h2
                                                     style="text-align: center; font-size: 14px; color: #006eb5; font-weight: 600; margin-top: 16px;">
-                                                    <strong>Produktvideos / Produkttests</strong></h2>
+                                                    <strong>Produktvideos / Produkttests</strong>
+                                                </h2>
                                             </div>
                                         </div>
                                     </div>
@@ -2689,7 +2697,8 @@
                                                 <div class="html--content panel--body is--wide">
                                                     <h1
                                                         style="text-align: left; font-size: 24px; color: #006eb5; font-weight: 600; margin-top: 16px; line-height: 1.25;">
-                                                        <strong>SPORTHUND – der Shop für Hundesportartikel</strong></h1>
+                                                        <strong>SPORTHUND – der Shop für Hundesportartikel</strong>
+                                                    </h1>
                                                     <p align="justify"><span>Sporthund ist eine der bekanntesten Marken
                                                             im Hundesport. Wir liefern Hundesportzubehör unter anderem
                                                             für den&nbsp;</span><strong><a
@@ -3728,21 +3737,16 @@
         <footer class="footer-info">
             <div class="container">
                 <div class="footer--info-content float-yes">
-                    <div class="footer--payment-content"> <img
-                            src="/custom/plugins/CbaxThemeMars/Resources/Themes/Frontend/ThemeMars/frontend/_public/src/img/payment/paypal_dark.png"
-                            alt="Paypal" title="Paypal" class="icon-payment-footer"> <img
-                            src="/custom/plugins/CbaxThemeMars/Resources/Themes/Frontend/ThemeMars/frontend/_public/src/img/payment/mastercard_dark.png"
-                            alt="Mastercard" title="Mastercard" class="icon-payment-footer"> <img
-                            src="/custom/plugins/CbaxThemeMars/Resources/Themes/Frontend/ThemeMars/frontend/_public/src/img/payment/visa_dark.png"
-                            alt="Visa" title="Visa" class="icon-payment-footer"> <img
-                            src="/custom/plugins/CbaxThemeMars/Resources/Themes/Frontend/ThemeMars/frontend/_public/src/img/payment/amazon-pay_dark.png"
+                    <div class="footer--payment-content"> <img src="img/paypal_dark.png" alt="Paypal" title="Paypal"
+                            class="icon-payment-footer"> <img src="img/mastercard_dark.png" alt="Mastercard"
+                            title="Mastercard" class="icon-payment-footer"> <img src="img/visa_dark.png" alt="Visa"
+                            title="Visa" class="icon-payment-footer"> <img src="img/amazon-pay_dark.png"
                             alt="Amazon Payments" title="Amazon Payments" class="icon-payment-footer"> <img
-                            src="/media/image/42/0e/97/leroi-sofort-footer.png" alt="Sofortüberweisung"
-                            title="Sofortüberweisung" class="icon-payment-footer"> <img
-                            src="/media/image/29/d7/6b/schuler-footer-nachnahme.png" alt="Nachnahme" title="Nachnahme"
-                            class="icon-payment-footer"> <img src="/media/image/a0/f6/93/schuler-footer-vorkasse.png"
+                            src="img/leroi-sofort-footer.png" alt="Sofortüberweisung" title="Sofortüberweisung"
+                            class="icon-payment-footer"> <img src="img/schuler-footer-nachnahme.png" alt="Nachnahme"
+                            title="Nachnahme" class="icon-payment-footer"> <img src="img/schuler-footer-vorkasse.png"
                             alt="Vorkasse" title="Vorkasse" class="icon-payment-footer"> <img
-                            src="/media/image/b5/45/4c/schuler-footer-rechnung.png" alt="Rechnung" title="Rechnung"
+                            src="img/schuler-footer-rechnung.png" alt="Rechnung" title="Rechnung"
                             class="icon-payment-footer"> </div>
                     <div class="footer--shipping-content"> </div>
                 </div>
@@ -3754,20 +3758,20 @@
                     <div class="footer--column column--hotline is--first block">
                         <div class="column--headline">Service Hotline</div>
                         <div class="column--content">
-                            <p class="column--desc">Telefonische Unterstützung und<br> Beratung unter:<br><br><a
+                            <p class="column--desc">Telefonische Unterst&uuml;tzung und<br> Beratung unter:<br><br><a
                                     href="tel:+4979459410101" class="footer--phone-link">(0 79 45) 9 41 01
-                                    01</a><br>Mo-Do, 10:00-12:00 &amp; 15:00-17:00 Uhr<br>Fr, 10:00-12:00 Uhr<br><a
+                                    01</a><br>Mo-Do, 10:00-12:00 & 15:00-17:00 Uhr<br>Fr, 10:00-12:00 Uhr<br><a
                                     href="https://www.ferntrainer24.de" title="https://www.ferntrainer24.de"
-                                    rel="nofollow noopener"><img src="/media/image/9b/8a/9c/ferntrainer24.png"
-                                        alt="Ferntrainer 24" style="margin-top:1em"></a></p>
+                                    rel="nofollow noopener"><img src="img/ferntrainer24.png" alt="Ferntrainer 24"
+                                        style="margin-top:1em"></a></p>
                             <div class="vm-social-footer">
                                 <p>Besuche uns auch auf Social Media</p> <a
                                     href="https://www.facebook.com/sporthund.de/" target="_blank"
-                                    rel="nofollow noopener"><img src="/media/image/98/ef/76/Facebook.png"></a> <a
+                                    rel="nofollow noopener"><img src="img/Facebook.png"></a> <a
                                     href="https://www.instagram.com/sporthund.de/" target="_blank"
-                                    rel="nofollow noopener"><img src="/media/image/e1/ec/0f/Istagram.jpg"></a> <a
+                                    rel="nofollow noopener"><img src="img/Istagram.jpg"></a> <a
                                     href="https://twitter.com/sporthund_de" target="_blank" rel="nofollow noopener"><img
-                                        src="/media/image/03/e0/10/Twitter.png"></a>
+                                        src="img/Twitter.png"></a>
                             </div>
                         </div>
                     </div>
@@ -4098,9 +4102,9 @@
                                         <div class="non_sortable" style="text-align:left;"> </div>
                                         <div class="editable_content" style="text-align:left;"> <button type="submit"
                                                 aria-label="Newsletter abonnieren" class="newsletter--button btn"
-                                                style="float:right !important;" disabled=""> <i class="icon--mail"></i>
-                                                <span class="button--text">Newsletter abonnieren</span> </button> <input
-                                                id="text3364033" name="email" value="" type="text"
+                                                style="float:right !important;"> <i class="icon--mail"></i> <span
+                                                    class="button--text">Newsletter abonnieren</span> </button> <input
+                                                id="text3364033" name="email" value type="text"
                                                 style="width:80% !important;" placeholder="Ihre E-Mail Adresse"> </div>
                                         <noscript><a href="http://www.cleverreach.de"
                                                 rel="nofollow noopener">www.CleverReach.de</a></noscript>
@@ -4168,15 +4172,14 @@
                         action="https://www.sporthund.de/account/login/sTarget/account/sTargetAction/index">
                         <fieldset>
                             <p> <input name="email" type="email" autocomplete="email" tabindex="1" placeholder="E-Mail"
-                                    value="" id="email2" class="text "> </p>
+                                    value id="email2" class="text "> </p>
                             <p class="none"> <input name="password" type="password" autocomplete="current-password"
                                     tabindex="2" placeholder="Passwort" id="passwort2" class="text "> </p>
                         </fieldset>
                         <p class="password"> <a href="https://www.sporthund.de/account/password"
                                 title="Passwort vergessen?"> Passwort vergessen? </a> </p>
                         <div class="action"> <button class="btn is--primary is--large is--icon-right" type="submit"
-                                name="Submit"> Anmelden </button> </div> <input type="hidden" name="__csrf_token"
-                            value="QwpRSfWvSL3QIUZf0Cn7w08d0rudxP">
+                                name="Submit"> Anmelden </button> </div>
                     </form>
                 </div>
             </div>
@@ -4205,14 +4208,14 @@
         })();
     </script>
     <style type="text/css"> </style>
-    <div class="acris--page-wrap--cookie-permission is--default is--inactive" id="acris--page-wrap--cookie-permission"
-        data-acris-cookie-permission="true" data-acriscookieprivacydontaddtodatalayer=""
-        data-acceptcookiesettingsurl="/widgets/AcrisCookiePrivacy/acceptCookieSettings"
-        data-acceptcookieurl="/widgets/AcrisCookiePrivacy/allowCookieGroup"
-        data-acceptonlyfunctionalcookiesurl="/widgets/AcrisCookiePrivacy/allowOnlyFunctional"
-        data-acceptallcookiesurl="/widgets/AcrisCookiePrivacy/allowAll" data-pagereload="">
+    <div class="acris--page-wrap--cookie-permission is--default" id="acris--page-wrap--cookie-permission"
+        data-acris-cookie-permission="true" data-acrisCookiePrivacyDontAddToDataLayer
+        data-acceptCookieSettingsUrl="/widgets/AcrisCookiePrivacy/acceptCookieSettings"
+        data-acceptCookieUrl="/widgets/AcrisCookiePrivacy/allowCookieGroup"
+        data-acceptOnlyFunctionalCookiesUrl="/widgets/AcrisCookiePrivacy/allowOnlyFunctional"
+        data-acceptAllCookiesUrl="/widgets/AcrisCookiePrivacy/allowAll" data-pageReload>
         <div class="acris-cookie-settings--wrapper">
-            <div class="container acris-cookie-settings--container" style="display: inherit; height: 0px;">
+            <div class="container acris-cookie-settings--container">
                 <div class="acris-cookie-settings--content">
                     <div class="acris-cookie-settings--groups">
                         <div class="cookie-setting--group">
@@ -4242,7 +4245,7 @@
                                                 Einkaufsdaten über mehrere Seitenaufrufe hinweg und ist somit
                                                 unerlässlich für Ihr persönliches Einkaufserlebnis.</div> <input
                                                 type="hidden" class="cookie-setting--switch--cookie-id"
-                                                value="session-\d+|session"> <input type="checkbox" hidden=""
+                                                value="session-\d+|session"> <input type="checkbox" hidden
                                                 checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie is-default-cookie">
                                         </div>
@@ -4252,7 +4255,7 @@
                                                 sitzungsübergreifend dem Benutzer zur Verfügung zu stellen. Damit bleibt
                                                 der Merkzettel auch über mehrere Browsersitzungen hinweg bestehen.</div>
                                             <input type="hidden" class="cookie-setting--switch--cookie-id"
-                                                value="sUniqueID"> <input type="checkbox" hidden="" checked="checked"
+                                                value="sUniqueID"> <input type="checkbox" hidden checked="checked"
                                                 value="1"
                                                 class="cookie-setting--switch--group--cookie is-default-cookie">
                                         </div>
@@ -4262,7 +4265,7 @@
                                                 für die aktuell aktive Displaygröße die bestmögliche Darstellung zu
                                                 gewährleisten. </div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id" value="x-ua-device"> <input
-                                                type="checkbox" hidden="" checked="checked" value="1"
+                                                type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie is-default-cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4272,7 +4275,7 @@
                                                 unerwünschte Hackangriffe.</div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id"
                                                 value="__csrf_token-\d+|invalidate-xcsrf-token|csrf_token"> <input
-                                                type="checkbox" hidden="" checked="checked" value="1"
+                                                type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie is-default-cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4282,7 +4285,7 @@
                                                 persönlichen Daten, ermöglicht jedoch eine Personalisierung über mehrere
                                                 Browsersitzungen hinweg.</div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id" value="slt"> <input
-                                                type="checkbox" hidden="" checked="checked" value="1"
+                                                type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie is-default-cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4291,7 +4294,7 @@
                                                 Benutzern individuelle Inhalte unabhängig vom Cachespeicher auszulesen.
                                             </div> <input type="hidden" class="cookie-setting--switch--cookie-id"
                                                 value="nocache|shop|currency|x-cache-context-hash"> <input
-                                                type="checkbox" hidden="" checked="checked" value="1"
+                                                type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie is-default-cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4300,7 +4303,7 @@
                                                 herauszufinden, ob Cookies vom Browser des Seitennutzers zugelassen
                                                 werden.</div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id" value="testcookie"> <input
-                                                type="checkbox" hidden="" checked="checked" value="1"
+                                                type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie is-default-cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4310,7 +4313,7 @@
                                                 speichern.</div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id"
                                                 value="allowCookie|cookieDeclined|acris_cookie_acc|cookiePreferences">
-                                            <input type="checkbox" hidden="" checked="checked" value="1"
+                                            <input type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie is-default-cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4319,7 +4322,7 @@
                                                 über Amazon eingesetzt.</div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id"
                                                 value="amazon-pay-abtesting-apa-migration|amazon-pay-abtesting-new-widgets|amazon-pay-connectedAuth|apay-session-set|apay-status-v2|amazon_Login_accessToken|amazon_Login_state_cache|amazon-pay-cors-blocked-status">
-                                            <input type="checkbox" hidden="" checked="checked" value="1"
+                                            <input type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4327,7 +4330,7 @@
                                             <div class="cookie--description">Das Cookie ermöglicht es den Warenkorb über
                                                 mehrere Browsersitzungen hinweg zu speichern.</div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id" value="BasketToken_(\w|\d)+">
-                                            <input type="checkbox" hidden="" checked="checked" value="1"
+                                            <input type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4336,7 +4339,7 @@
                                                 über PayPal genutzt.</div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id"
                                                 value="paypalplus_session_v2|PYPF|paypal-offers–.+"> <input
-                                                type="checkbox" hidden="" checked="checked" value="1"
+                                                type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4345,7 +4348,7 @@
                                                 Umsatz von Direktlinks von anderen Plattformen umsatztechnisch
                                                 auszuwerten.</div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id" value="partner"> <input
-                                                type="checkbox" hidden="" checked="checked" value="1"
+                                                type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4354,7 +4357,7 @@
                                                 die zuerst besuchte Seite des Benutzers für eine weitere Verwendung.
                                             </div> <input type="hidden" class="cookie-setting--switch--cookie-id"
                                                 value="acris_cookie_landing_page|acris_cookie_referrer"> <input
-                                                type="checkbox" hidden="" checked="checked" value="1"
+                                                type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie is-default-cookie">
                                         </div>
                                         <div class="cookie--item">
@@ -4362,7 +4365,7 @@
                                             <div class="cookie--description">Das Cookie wird genutzt um das Schließen
                                                 des eingeblendeten Popups auf der Seite zu merken.</div> <input
                                                 type="hidden" class="cookie-setting--switch--cookie-id"
-                                                value="_netzpNotifications_.+"> <input type="checkbox" hidden=""
+                                                value="_netzpNotifications_.+"> <input type="checkbox" hidden
                                                 checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie">
                                         </div>
@@ -4371,7 +4374,7 @@
                                             <div class="cookie--description">Speichert welche Cookies bereits vom
                                                 Benutzer zum ersten Mal akzeptiert wurden.</div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id"
-                                                value="acris_cookie_first_activated"> <input type="checkbox" hidden=""
+                                                value="acris_cookie_first_activated"> <input type="checkbox" hidden
                                                 checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie is-default-cookie">
                                         </div>
@@ -4379,21 +4382,21 @@
                                             <div class="cookie--title">Amazon Pay</div>
                                             <div class="cookie--description"></div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id" value="amazonPay"> <input
-                                                type="checkbox" hidden="" checked="checked" value="1"
+                                                type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie">
                                         </div>
                                         <div class="cookie--item">
                                             <div class="cookie--title">PayPal-Zahlungen</div>
                                             <div class="cookie--description"></div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id" value="paypal-cookies"> <input
-                                                type="checkbox" hidden="" checked="checked" value="1"
+                                                type="checkbox" hidden checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie">
                                         </div>
                                         <div class="cookie--item">
                                             <div class="cookie--title">Advanced Cart</div>
                                             <div class="cookie--description"></div> <input type="hidden"
                                                 class="cookie-setting--switch--cookie-id"
-                                                value="AdvancedCartBasketToken"> <input type="checkbox" hidden=""
+                                                value="AdvancedCartBasketToken"> <input type="checkbox" hidden
                                                 checked="checked" value="1"
                                                 class="cookie-setting--switch--group--cookie">
                                         </div>
@@ -4426,14 +4429,15 @@
                                                 personalisierte Werbeangebote aufgrund des Nutzerverhaltens anzuzeigen.
                                             </div>
                                             <div class="cookie-setting--switch--container"> <label
-                                                    class="cookie-setting--switch" data-groupidcookielabel="2"> <input
-                                                        type="hidden" class="cookie-setting--switch--cookie-id"
+                                                    class="cookie-setting--switch is--disabled"
+                                                    data-groupidcookielabel="2"> <input type="hidden"
+                                                        class="cookie-setting--switch--cookie-id"
                                                         value="fr|_fbp|tr|_fbc"> <input type="checkbox"
                                                         data-groupidcookie="2" data-cookieid="10"
                                                         data-cookiename="fr|_fbp|tr|_fbc"
                                                         data-cookietitle="Facebook Pixel"
-                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie">
-                                                    <span class="switch--slider"></span> <span
+                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie"
+                                                        disabled="disabled"> <span class="switch--slider"></span> <span
                                                         class="switch--slider--enabled switch--slider--active">Aktiv</span>
                                                     <span
                                                         class="switch--slider--enabled switch--slider--inactive">Inaktiv</span>
@@ -4444,13 +4448,13 @@
                                             <div class="cookie--description">Das Cookie wird von Google AdSense für
                                                 Förderung der Werbungseffizienz auf der Webseite verwendet.</div>
                                             <div class="cookie-setting--switch--container"> <label
-                                                    class="cookie-setting--switch" data-groupidcookielabel="2"> <input
-                                                        type="hidden" class="cookie-setting--switch--cookie-id"
-                                                        value="_gcl_au"> <input type="checkbox" data-groupidcookie="2"
-                                                        data-cookieid="11" data-cookiename="_gcl_au"
-                                                        data-cookietitle="Google AdSense"
-                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie">
-                                                    <span class="switch--slider"></span> <span
+                                                    class="cookie-setting--switch is--disabled"
+                                                    data-groupidcookielabel="2"> <input type="hidden"
+                                                        class="cookie-setting--switch--cookie-id" value="_gcl_au">
+                                                    <input type="checkbox" data-groupidcookie="2" data-cookieid="11"
+                                                        data-cookiename="_gcl_au" data-cookietitle="Google AdSense"
+                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie"
+                                                        disabled="disabled"> <span class="switch--slider"></span> <span
                                                         class="switch--slider--enabled switch--slider--active">Aktiv</span>
                                                     <span
                                                         class="switch--slider--enabled switch--slider--inactive">Inaktiv</span>
@@ -4463,14 +4467,15 @@
                                                 Informationen werden vom Seitenbetreiber genutzt um Google AdWords
                                                 Kampagnen gezielt einzusetzen.</div>
                                             <div class="cookie-setting--switch--container"> <label
-                                                    class="cookie-setting--switch" data-groupidcookielabel="2"> <input
-                                                        type="hidden" class="cookie-setting--switch--cookie-id"
+                                                    class="cookie-setting--switch is--disabled"
+                                                    data-groupidcookielabel="2"> <input type="hidden"
+                                                        class="cookie-setting--switch--cookie-id"
                                                         value="_gcl_aw|_gcl_dc"> <input type="checkbox"
                                                         data-groupidcookie="2" data-cookieid="15"
                                                         data-cookiename="_gcl_aw|_gcl_dc"
                                                         data-cookietitle="Google Conversion Tracking"
-                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie">
-                                                    <span class="switch--slider"></span> <span
+                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie"
+                                                        disabled="disabled"> <span class="switch--slider"></span> <span
                                                         class="switch--slider--enabled switch--slider--active">Aktiv</span>
                                                     <span
                                                         class="switch--slider--enabled switch--slider--inactive">Inaktiv</span>
@@ -4481,13 +4486,13 @@
                                             <div class="cookie--description">Dieses Coockie hilft uns dabei, Sie an
                                                 Produkte zu erinnern, die interessant für Sie sind.</div>
                                             <div class="cookie-setting--switch--container"> <label
-                                                    class="cookie-setting--switch" data-groupidcookielabel="2"> <input
-                                                        type="hidden" class="cookie-setting--switch--cookie-id"
-                                                        value="relevanz"> <input type="checkbox" data-groupidcookie="2"
-                                                        data-cookieid="51" data-cookiename="relevanz"
-                                                        data-cookietitle="relevan.nz"
-                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie">
-                                                    <span class="switch--slider"></span> <span
+                                                    class="cookie-setting--switch is--disabled"
+                                                    data-groupidcookielabel="2"> <input type="hidden"
+                                                        class="cookie-setting--switch--cookie-id" value="relevanz">
+                                                    <input type="checkbox" data-groupidcookie="2" data-cookieid="51"
+                                                        data-cookiename="relevanz" data-cookietitle="relevan.nz"
+                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie"
+                                                        disabled="disabled"> <span class="switch--slider"></span> <span
                                                         class="switch--slider--enabled switch--slider--active">Aktiv</span>
                                                     <span
                                                         class="switch--slider--enabled switch--slider--inactive">Inaktiv</span>
@@ -4521,14 +4526,15 @@
                                                 Datenverkehranalyse der Webseite eingesetzt. Dabei können Statistiken
                                                 über Webseitenaktivitäten erstellt und ausgelesen werden.</div>
                                             <div class="cookie-setting--switch--container"> <label
-                                                    class="cookie-setting--switch" data-groupidcookielabel="3"> <input
-                                                        type="hidden" class="cookie-setting--switch--cookie-id"
+                                                    class="cookie-setting--switch is--disabled"
+                                                    data-groupidcookielabel="3"> <input type="hidden"
+                                                        class="cookie-setting--switch--cookie-id"
                                                         value="_ga|_gid|_gat_.+|_dc_gtm_UA-.+|ga-disable-UA-.+|__utm(a|b|c|d|t|v|x|z)|_gat|_gac.*">
                                                     <input type="checkbox" data-groupidcookie="3" data-cookieid="9"
                                                         data-cookiename="_ga|_gid|_gat_.+|_dc_gtm_UA-.+|ga-disable-UA-.+|__utm(a|b|c|d|t|v|x|z)|_gat|_gac.*"
                                                         data-cookietitle="Google Analytics"
-                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie">
-                                                    <span class="switch--slider"></span> <span
+                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie"
+                                                        disabled="disabled"> <span class="switch--slider"></span> <span
                                                         class="switch--slider--enabled switch--slider--active">Aktiv</span>
                                                     <span
                                                         class="switch--slider--enabled switch--slider--inactive">Inaktiv</span>
@@ -4562,14 +4568,15 @@
                                                 anzeigen</div>
                                             <div class="cookie--description"></div>
                                             <div class="cookie-setting--switch--container"> <label
-                                                    class="cookie-setting--switch" data-groupidcookielabel="6"> <input
-                                                        type="hidden" class="cookie-setting--switch--cookie-id"
+                                                    class="cookie-setting--switch is--disabled"
+                                                    data-groupidcookielabel="6"> <input type="hidden"
+                                                        class="cookie-setting--switch--cookie-id"
                                                         value="facebookfanpage"> <input type="checkbox"
                                                         data-groupidcookie="6" data-cookieid="56"
                                                         data-cookiename="facebookfanpage"
                                                         data-cookietitle="Facebook-Seite in der rechten Blog - Sidebar anzeigen"
-                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie">
-                                                    <span class="switch--slider"></span> <span
+                                                        class="cookie-setting--switch--group cookie-setting--switch--group--cookie"
+                                                        disabled="disabled"> <span class="switch--slider"></span> <span
                                                         class="switch--slider--enabled switch--slider--active">Aktiv</span>
                                                     <span
                                                         class="switch--slider--enabled switch--slider--inactive">Inaktiv</span>
@@ -4599,16 +4606,8 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript"
-        id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "1935507036756632"); fbq("track", "PageView");</script>
-    <noscript>
-        <img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1935507036756632&amp;ev=PageView&amp;noscript=1">
-    </noscript>
-    <script type="text/javascript"
-        id="">(function (b, f, d, g, a, c, e) { b[a] || (b[a] = {}, b[a].scriptToken = "XzE5MjExODk3Nzg", b[a].callsQueue = [], b[a].api = function () { b[a].callsQueue.push(arguments) }, c = f.createElement(d), e = f.getElementsByTagName(d)[0], c.async = 1, c.src = g, c.id = a + d, e.parentNode.insertBefore(c, e)) })(window, document, "script", "https://cdn.oribi.io/XzE5MjExODk3Nzg/oribi.js", "ORIBI");</script>
     <script id="footer--js-inline">
-        var timeNow = 1641717127;
+        var timeNow = 1641742446;
         var secureShop = true;
         var asyncCallbacks = [];
         document.asyncReady = function (callback) {
@@ -4681,8 +4680,7 @@
             'publicListText': 'Öffentliche Wunschliste - Liste ist öffentlich sichtbar',
             'privateListText': "Private Wunschliste - Liste ist nicht öffentlich sichtbar"
         };
-    </script> <iframe id="refresh-statistics" width="0" height="0" style="display:none;"
-        src="/widgets/index/refreshStatistic?requestPage=%2F&amp;requestController=index"></iframe>
+    </script> <iframe id="refresh-statistics" width="0" height="0" style="display:none;"></iframe>
     <script>
         /**
         * @returns { boolean }
@@ -4747,9 +4745,8 @@
                 .src = url;
         })(window, document);
     </script>
-    <script async="" src="/web/cache/1641208889_d51a91a1477179ca3839d92bcdc982ec.js" id="main-script"></script>
-    <script src="https://widget.superchat.de/snippet.js?applicationKey=WCWl0VQRbo5NE7v294yA6KeOwL"
-        referrerpolicy="no-referrer-when-downgrade"></script>
+    <script async src="js/1641208889_d51a91a1477179ca3839d92bcdc982ec.js" id="main-script"></script>
+    <script src="js/snippet.js" referrerpolicy="no-referrer-when-downgrade"></script>
     <script>
         /**
         * Wrap the replacement code into a function to call it from the outside to replace the method when necessary
@@ -4802,53 +4799,6 @@
             _netzpNotifications = createNetzpNotifications(netzpNotificationsConfig);
         });
     </script>
-    <div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div><iframe
-        id="nr-ext-rsicon"
-        style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe>
-    <style>
-        #superchat-widget {
-            width: 120px;
-            height: 120px;
-            max-width: calc(640px + 1px);
-            position: fixed;
-            right: 0;
-            bottom: 0;
-
-            background: transparent;
-            border: 0 !important;
-
-            -webkit-transition-property: none !important;
-            -moz-transition-property: none !important;
-            -o-transition-property: none !important;
-            transition-property: none !important;
-        }
-
-        #superchat-widget.open {
-            width: 100%;
-            top: 0;
-            left: 0;
-            height: 100%;
-        }
-
-        #superchat-widget.greeting:not(.open) {
-            width: 400px;
-            height: 240px;
-        }
-
-        @media(min-width: 640px) {
-            #superchat-widget {
-                margin-right: 12px;
-                margin-bottom: 12px;
-            }
-
-            #superchat-widget.open {
-                top: auto;
-                left: auto;
-                height: 580px;
-            }
-        }
-    </style><iframe id="superchat-widget" src="https://widget.superchat.de?applicationKey=WCWl0VQRbo5NE7v294yA6KeOwL"
-        style="z-index: 10000;" class="greeting"></iframe>
 </body>
 
 </html>
